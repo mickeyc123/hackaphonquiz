@@ -89,25 +89,31 @@ function resetState(){
   }
 }
 
-function selectAnswer(e){
-  const selectedBtn = e.target;
-  const isCorrect = selectedBtn.dataset.correct === "true";
-  if(isCorrect){
-    selectedBtn.classList.add("correct");
-      score++;
-      document.body.style.backgroundColor = "green";
-  }else{
-      selectedBtn.classList.add("incorrect");
-      document.body.style.backgroundColor = "red";
-  }
-  Array.from(answerButton.children).forEach(button => {
-    if(button.dataset.correct === "true"){
-        button.classList.add("correct");
+function selectAnswer(e) {
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if (isCorrect) {
+        selectedBtn.classList.add("correct");
+        score++;
+        document.body.style.backgroundColor = "green";
+    } else {
+        selectedBtn.classList.add("incorrect");
+        document.body.style.backgroundColor = "red";
     }
-    button.disabled = true;
-  });
-  nextButton.style.display = "block";
+    Array.from(answerButton.children).forEach(button => {
+        if (button.dataset.correct === "true") {
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+
+    nextButton.style.display = "block";
 }
+
+nextButton.addEventListener('click', function () {
+    document.body.style.backgroundColor = "blue";
+});
+
 
 function showScore(){
     resetState();
