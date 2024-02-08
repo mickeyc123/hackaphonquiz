@@ -49,8 +49,8 @@ const questions =  [
     {
         question: "What is the name for the longest day of the year?",
        answers: [
-          { text: "Summer Solstice", correct: true},
           { text: "High Summer Day", correct: false},
+          { text: "Summer Solstice", correct: true},
           { text: "Super Summer Time", correct: false},
           { text: "Summer Long-Day", correct: false}
         ]  
@@ -58,9 +58,9 @@ const questions =  [
     {
         question: "Nearly all fossils are preserved in what type of rock?",
        answers: [
-          { text: "Sedimentary", correct: true},
           { text: "Igneous", correct: false},
           { text: "Metamorphic", correct: false},
+          { text: "Sedimentary", correct: true},
           { text: "Heavy Metal", correct: false}
         ]  
     },
@@ -76,17 +76,17 @@ const questions =  [
     {
         question: "What actor plays Ken in the 2023 blockbuster movie 'Barbie?'",
        answers: [
-          { text: "Ryan Gosling", correct: true},
           { text: "Ryan Reynolds", correct: false},
           { text: "Tom Holland", correct: false},
-          { text: "Margot Robbie", correct: false}
+          { text: "Margot Robbie", correct: false},
+          { text: "Ryan Gosling", correct: true}
         ]  
     },
     {
         question: "What 1927 film effectively ended the silent movie era by introducing synchronized talking and singing?", //Charles Q 5
        answers: [
-          { text: "The Jazz Singer", correct: true},
           { text: "Citizen Kane", correct: false},
+          { text: "The Jazz Singer", correct: true},
           { text: "The Maltese Falcon", correct: false},
           { text: "All Quiet on the Western Front", correct: false}
         ]  
@@ -103,17 +103,17 @@ const questions =  [
     {
         question: "'There's a snake in my boot!' is famously spoken by Woody, a cowboy doll, in which film series?",
        answers: [
-          { text: "Toy Story", correct: true},
           { text: "The Avengers", correct: false},
           { text: "Despicable Me", correct: false},
-          { text: "Spy Kids", correct: false}
+          { text: "Spy Kids", correct: false},
+          { text: "Toy Story", correct: true}
         ]  
     },    
     {
         question: "Which soft drink once contained cocaine as one of its original ingredients?",
        answers: [
-          { text: "Coca-Cola", correct: true},
           { text: "Sprite", correct: false},
+          { text: "Coca-Cola", correct: true},
           { text: "Irn Bru", correct: false},
           { text: "Dr Pepper", correct: false}
         ]  
@@ -121,9 +121,9 @@ const questions =  [
     {
         question: "What fish is capable of generating an electrical discharge up to 600 volts?",
        answers: [
-          { text: "The Electric Eel", correct: true},
           { text: "The Sparky Shark", correct: false},
           { text: "The Wattage Whale", correct: false},
+          { text: "The Electric Eel", correct: true},
           { text: "The Ohm Octopus", correct: false}
         ]  
     },
@@ -148,19 +148,19 @@ const questions =  [
     {
         question: "What 1949 science fiction book by author George Orwell describes a dystopian world in the future?",
        answers: [
-          { text: "1984", correct: true},
           { text: "Brave New World", correct: false},
           { text: "Foundation", correct: false},
-          { text: "The Spooky Future", correct: false}
+          { text: "The Spooky Future", correct: false},
+          { text: "1984", correct: true}
         ]  
     },
     {
         question: "'Call me Ishmael' is the first line from what classic novel?",
        answers: [
-          { text: "Moby Dick", correct: true},
           { text: "20,000 Leagues Under The Sea", correct: false},
           { text: "Around the World in 80 Days", correct: false},
-          { text: "The Spooky Future Part 2", correct: false}
+          { text: "The Spooky Future Part 2", correct: false},
+          { text: "Moby Dick", correct: true}
         ]  
     },
     {
@@ -175,8 +175,8 @@ const questions =  [
     {
         question: "Who was the astronaut that stayed behind while his crewmates walked on the Moon?", //Charles Q 15
        answers: [
-          { text: "Michael Collins", correct: true},
           { text: "Buzz Aldrin", correct: false},
+          { text: "Michael Collins", correct: true},
           { text: "Neil Armstrong", correct: false},
           { text: "Buzz Lightyear", correct: false}
         ]  
