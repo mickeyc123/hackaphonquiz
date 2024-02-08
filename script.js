@@ -1,6 +1,7 @@
 const questions =  [
     {
         question: "What is the capital of Japan?",
+        image: "images/1MtFuji.jpg",
         answers: [
           { text: "Tokyo", correct: true},
           { text: "Beijing", correct: false},
@@ -10,6 +11,7 @@ const questions =  [
     },
     {
         question: "Which planet is closest to the sun?",
+        image: "images/2Sun.jpg",
         answers: [
           { text: "Venus", correct: false},
           { text: "Mars", correct: false},
@@ -19,6 +21,7 @@ const questions =  [
     },
     {
         question: "What is the largest ocean on Earth?",
+        image: "images/3Oceans.jpg",
       answers: [
           { text: "Atlantic Ocean", correct: false},
           { text: "Indian Ocean", correct: false},
@@ -28,6 +31,7 @@ const questions =  [
     },
     {
         question: "Who wrote 'Romeo and Juliet'?",
+        image: "images/4Theatre.jpg",
       answers: [
           { text: "Charles Dickens", correct: false},
           { text: "William Shakespeare", correct: true},
@@ -37,6 +41,7 @@ const questions =  [
     },
     {
         question: "What is the capital of Australia?",
+        image: "images/5Australia.jpg",
        answers: [
           { text: "Canberra", correct: true},
           { text: "Sydney", correct: false},
@@ -48,6 +53,7 @@ const questions =  [
     //Start of Charles added questions
     {
         question: "What is the name for the longest day of the year?",
+        image: "images/6Summer.jpg",
        answers: [
           { text: "High Summer Day", correct: false},
           { text: "Summer Solstice", correct: true},
@@ -57,6 +63,7 @@ const questions =  [
     },
     {
         question: "Nearly all fossils are preserved in what type of rock?",
+        image: "images/7Fossils.jpg",
        answers: [
           { text: "Igneous", correct: false},
           { text: "Metamorphic", correct: false},
@@ -66,6 +73,7 @@ const questions =  [
     },
     {
         question: "What is an eight-sided shape called?",
+        image: "images/8Shapes.png",
        answers: [
           { text: "Octagon", correct: true},
           { text: "Pentagon", correct: false},
@@ -75,6 +83,7 @@ const questions =  [
     },
     {
         question: "What actor plays Ken in the 2023 blockbuster movie 'Barbie?'",
+        image: "images/9Barbie.jpg",
        answers: [
           { text: "Ryan Reynolds", correct: false},
           { text: "Tom Holland", correct: false},
@@ -84,6 +93,7 @@ const questions =  [
     },
     {
         question: "What 1927 film effectively ended the silent movie era by introducing synchronized talking and singing?", //Charles Q 5
+        image: "images/10SilentFilm.jpg",
        answers: [
           { text: "Citizen Kane", correct: false},
           { text: "The Jazz Singer", correct: true},
@@ -93,6 +103,7 @@ const questions =  [
     },
     {
         question: "The unicorn is the national animal of which country?",
+        image: "images/11Unicorn.jpg",
        answers: [
           { text: "Scotland", correct: true},
           { text: "Iceland", correct: false},
@@ -102,6 +113,7 @@ const questions =  [
     },
     {
         question: "'There's a snake in my boot!' is famously spoken by Woody, a cowboy doll, in which film series?",
+        image: "images/12Cowboy.jpg",
        answers: [
           { text: "The Avengers", correct: false},
           { text: "Despicable Me", correct: false},
@@ -111,6 +123,7 @@ const questions =  [
     },    
     {
         question: "Which soft drink once contained cocaine as one of its original ingredients?",
+        image: "images/13Drinks.jpg",
        answers: [
           { text: "Sprite", correct: false},
           { text: "Coca-Cola", correct: true},
@@ -120,6 +133,7 @@ const questions =  [
     },
     {
         question: "What fish is capable of generating an electrical discharge up to 600 volts?",
+        image: "images/14Fish.jpg",
        answers: [
           { text: "The Sparky Shark", correct: false},
           { text: "The Wattage Whale", correct: false},
@@ -129,6 +143,7 @@ const questions =  [
     },
     {
         question: "Bill Gates co-founded Microsoft with which of his childhood friends?",  //Charles Qu 10
+        image: "images/15Microsoft.jpg",
        answers: [
           { text: "Paul Allen", correct: true},
           { text: "Patrick Bateman", correct: false},
@@ -138,6 +153,7 @@ const questions =  [
     },
     {
         question: "'The Da Vinci Code' opens with a murder in which famous museum?",
+        image: "images/16MonaLisa.jpg",
        answers: [
           { text: "The Louvre", correct: true},
           { text: "The Tate Modern", correct: false},
@@ -147,6 +163,7 @@ const questions =  [
     },
     {
         question: "What 1949 science fiction book by author George Orwell describes a dystopian world in the future?",
+        image: "images/17Dystopia.jpg",
        answers: [
           { text: "Brave New World", correct: false},
           { text: "Foundation", correct: false},
@@ -156,6 +173,7 @@ const questions =  [
     },
     {
         question: "'Call me Ishmael' is the first line from what classic novel?",
+        image: "images/18Books.jpg",
        answers: [
           { text: "20,000 Leagues Under The Sea", correct: false},
           { text: "Around the World in 80 Days", correct: false},
@@ -165,6 +183,7 @@ const questions =  [
     },
     {
         question: "On July 20, 1969 the first humans walked on the Moon, what is the name of the first person to set foot on the lunar surface?",
+        image: "images/19MoonLanding.jpg",
        answers: [
           { text: "Neil Armstrong", correct: true},
           { text: "Buzz Aldrin", correct: false},
@@ -174,6 +193,7 @@ const questions =  [
     },
     {
         question: "Who was the astronaut that stayed behind while his crewmates walked on the Moon?", //Charles Q 15
+        image: "images/20MoonLanding2.jpg",
        answers: [
           { text: "Buzz Aldrin", correct: false},
           { text: "Michael Collins", correct: true},
@@ -201,12 +221,19 @@ function startQuiz() {
     showQuestion();
 }
 
+/**
+Function to display question, filling in html elements
+*/
 function showQuestion() {
   resetState();
   let currentQuestion = questions[currentQuestionIndex];
   let questionNo = currentQuestionIndex + 1;
   questionElement.innerHTML = questionNo + ". " + currentQuestion.
   question;
+
+  document.body.style.backgroundImage = `url('${currentQuestion.image}')`;
+  document.body.style.backgroundSize = "cover";
+  document.body.style.backgroundRepeat = "no-repeat";
   
   currentQuestion.answers.forEach(answer => {
     const button = document.createElement("button");
