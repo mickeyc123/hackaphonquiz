@@ -7,6 +7,7 @@ const questions =  [
           { text: "Seoul", correct: false},
           { text: "Bangkok", correct: false}
         ]
+        document.body.style.backgroundImage = "url(images/MtFuji.jpg)";
     },
     {
         question: "Which planet is closest to the sun?",
@@ -248,9 +249,9 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
-nextButton.addEventListener('click', function () {
+    nextButton.addEventListener('click', function () {
     document.body.style.backgroundColor = "blue";
-});
+    });
 
 
 function showScore(){
