@@ -6,10 +6,7 @@ The aim is to create a simple, interactive and responsive quiz game.
 You can view the deployed website [here](placeholder for GitHub Pages deployment)
 
 
-/*Placeholder - site displayed on multiple devices*/
-<p align="center">
-<img src="#" width="600" height="100%">
-</p>
+![First Build Mobile](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/4967db19-aa66-49ae-a99c-5a6c6e1bbe5f)
 
 
 ## Users Stories 
@@ -50,14 +47,13 @@ You can view the deployed website [here](placeholder for GitHub Pages deployment
     -
     -
     
+![Images Added Build](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/34e724f4-7935-40bd-92f9-956cc25550ca)
 
 # Wireframes
 
 ### _Mobile View - Home Page_
 
-<p align="center">
-<img src="" width="400" height="1000">
-</p>
+
 
 
 ### _Home Page_ 
@@ -161,15 +157,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 
 <p align="center">
 <img src="#" width="600" height="100%">
-</p>
+</p>![Images inside quiz build](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/e5b832c4-582d-4422-8da5-263aabb6f686)
 
-![Images inside quiz build](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/57b4dba2-655c-4f52-b5b3-5e1fc53c6b60)
-![Images inside quiz build 3](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/ec80c26e-e5ff-42e2-8935-2ac5b91fb1aa)
-![Images inside quiz build 2](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/ac3e2695-7bf5-4ccc-881c-44bbedeae8db)
-![Images Added Mobile](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/81ae7497-1bc3-4b59-9866-d8ba482f7ad9)
-![Images Added Build](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/07c0a3e7-0579-46e6-bdaa-6bfba90c88cb)
-![First build](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/56bc90fd-78df-4d94-8dde-f5076a03d485)
-![First Build Mobile](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/4967db19-aa66-49ae-a99c-5a6c6e1bbe5f)
+
+![Images inside quiz build 2](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/d159d432-a6c4-429d-a74c-64f921f1eacd)
+
+![Images inside quiz build](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/344b972a-f63b-4488-9315-1816883d46ef)
 
 # Deployment
 
