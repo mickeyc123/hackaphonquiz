@@ -228,13 +228,13 @@ function showQuestion() {
   resetState();
   let currentQuestion = questions[currentQuestionIndex];
   let questionNo = currentQuestionIndex + 1;
-  questionElement.innerHTML = questionNo + ". " + currentQuestion.
-  question;
+  questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
-  document.body.style.backgroundImage = `url('${currentQuestion.image}')`;
-  document.body.style.backgroundSize = "cover";
-  document.body.style.backgroundRepeat = "no-repeat";
-  
+  // Update background image for the .app div
+  document.querySelector('.app').style.backgroundImage = `url('${currentQuestion.image}')`;
+  document.querySelector('.app').style.backgroundSize = "cover";
+  document.querySelector('.app').style.backgroundRepeat = "no-repeat";
+
   currentQuestion.answers.forEach(answer => {
     const button = document.createElement("button");
     button.innerHTML = answer.text;
@@ -246,6 +246,7 @@ function showQuestion() {
     button.addEventListener("click", selectAnswer);
   });
 }
+
 
 function resetState(){
   nextButton.style.display = "none";
