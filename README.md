@@ -1,39 +1,191 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Simple Quiz
 
-Welcome,
+The aim is to create a simple, interactive and responsive quiz game.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+You can view the deployed website [here](placeholder for GitHub Pages deployment)
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+/*Placeholder - site displayed on multiple devices*/
+<p align="center">
+<img src="#" width="600" height="100%">
+</p>
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Users Stories 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- As a trivia enthusiast, I want the quiz to have different categories of questions, so that I can explore different interesting topics.
 
-`http_server`
+- As a competitive player, I want the quiz to track my progress and achievements, so that I can challenge myself and gradually improve my knowledge.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- As a busy individual, I want the option to play the quiz in short rounds, so that I can fit it into my schedule during short breaks.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- As a mobile user, I want the quiz interface to be optimized for mobile devices, so that I can easily play the quiz on the go.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- As a user concerned about fairness, I want the quiz to prevent cheating and ensure a fair playing field for all participants.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#
+# Scope 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
----
+- An easy and simple navigation throughout the website.
+- Background changes colour whether you get a question right or wrong.
 
-Happy coding!
+### Future Features
+
+- Develop a functioning quiz app.
+- Able to add your own questions / custom quiz.
+- Add sounds when you get a question right/wrong.
+
+#
+# Structure (TBC)
+
+- **Header**  
+    - Quiz Name
+
+ - **Home Page**
+    -
+    -
+    -
+    
+
+# Wireframes
+
+### _Mobile View - Home Page_
+
+<p align="center">
+<img src="" width="400" height="1000">
+</p>
+
+
+### _Home Page_ 
+
+<p align="center">
+<img src="" width="600" height="700">
+</p>
+
+<hr>
+
+
+# Technologies Used
+
+## Languages 
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+## Frameworks, Libraries & Programs Used
+
+- [Github](https://github.com/IrisSmok) - was used to store the project code.
+
+- [Balsamiq](https://balsamiq.com/) - was used to create site wireframes.
+
+- /*[Shutterstock](https://www.shutterstock.com/home) and [Unsplash photo](https://unsplash.com/) - was used for all images on the website.*/
+
+# Testing
+- Tested on . . . version browsers
+- Chrome Developer Tools are used to test the responsiveness on: Desktop, Laptop, Moto G4, Galaxy S5, iPhone 5/SE, iPhone 6,7,8, iPhone 6,7,8 Plus, iPad, iPad Pro, Galaxy Fold
+
+# Validating 
+The W3C Markup Validator and W3C CSS Validator Services were used to check my code for syntax errors in this project.
+
+- [HTML](https://validator.w3.org/#validate_by_input)- I checked each page by direct input method on HTML validator site
+
+<p align="center">
+<img src="#" width="400" height="100%">
+</p>
+
+- [CSS](https://jigsaw.w3.org/css-validator/)
+
+<p align="center">
+<img src="#" width="400" height="100%">
+</p>
+
+- I used Lighthouse tools to test my website
+<p align="center">
+<img src="#" width="400" height="100%">
+</p>
+
+## User Story Testing
+
+
+## Bugs and Issues
+
+- Adding in new questions, I didn't understand how the JS code worked before I started. This meant that the correct answers were always the first choice in the list. I had to go back in and correct this manually shuffling the correct/incorrect answers for each question.
+    With more time I would rewrite the code to automatically randomise the order of the answers so that this wasn't required.
+
+
+- Wanted background image to match the question being asked, such as a question about Japan having a picture of Japan in the background. This took some time to figure out as several methods I tried all just broke the JavaScript code and stopped it running entirely.
+	With a mixture of Coding coach, stack overflow and chatGPT I was able to link the pictures to the questions and have the background change to match the question.
+
+
+- Images used aren't ideal. This is because I was using Wiki Commons and filtering to "No License" to make sure we were ok to use those images. This did however limit the number of images available to pick from and I had to get a bit creative with some of them.
+	Ideally I would have purchased high-quality stock images to have access to a wider range of high-quality images.
+
+
+# Final Product 
+
+## Desktop View 
+ 
+### _Home Page_
+
+<p align="center">
+<img src="#" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="#" width="600" height="100%">
+</p>
+
+## Tablet View 
+ 
+### _Home Page_
+
+<p align="center">
+<img src="#" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="#" width="600" height="100%">
+</p>
+
+## Mobile View 
+ 
+### _Home Page_
+
+<p align="center">
+<img src="#" width="600" height="100%">
+</p>
+
+<p align="center">
+<img src="#" width="600" height="100%">
+</p>
+
+
+# Deployment
+
+## GitHub Pages
+1. Log into GitHub and locate the repository.
+2. At the top locate the settings option 
+3. Scroll towards  the bottom of the page and locate GitHub Pages 
+4. Click on the link "Check it out here!"
+4. Under 'Source' dropdown, click 'Master' from the options.
+5. Click the save button.
+6. The site is now published, it may not be available immediately. 
+7. The site URL is visible on the green bar under the "Github Pages".
+8. The latest deployed version can be seen [here](https://mickeyc123.github.io/hackaphonquiz/)
+
+
+# Credits
+
+## Content
+
+- All content was written by Esther, Charles & Michael
+- The format of this ReadMe.md was adapted from a docoument by [Iris Smok](https://github.com/Iris-Smok)
+- Documentation by Ben.
+
+## Media
+
+- All images were found on a free image website.
