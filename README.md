@@ -95,24 +95,14 @@ You can view the deployed website [here](placeholder for GitHub Pages deployment
 - Chrome Developer Tools are used to test the responsiveness on: Desktop, Laptop, Moto G4, Galaxy S5, iPhone 5/SE, iPhone 6,7,8, iPhone 6,7,8 Plus, iPad, iPad Pro, Galaxy Fold
 
 # Validating 
-The W3C Markup Validator and W3C CSS Validator Services were used to check my code for syntax errors in this project.
+html validator
 
-- [HTML](https://validator.w3.org/#validate_by_input)- I checked each page by direct input method on HTML validator site
 
-<p align="center">
-<img src="#" width="400" height="100%">
-</p>
+![htmlvalidator](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/761aaa72-11be-4340-8195-2a71e22c5c1b)
 
-- [CSS](https://jigsaw.w3.org/css-validator/)
+css validator
 
-<p align="center">
-<img src="#" width="400" height="100%">
-</p>
-
-- I used Lighthouse tools to test my website
-<p align="center">
-<img src="#" width="400" height="100%">
-</p>
+![cssvalidator](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/178c2909-275c-43d0-8c27-9d3a8ad13d4f)
 
 ## User Story Testing
 
