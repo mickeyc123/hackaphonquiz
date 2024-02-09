@@ -20,7 +20,7 @@
   
   .app h1{
     font-size: 25px;
-    color: #ff006e;
+    color: #00ff21;
     font-weight: 600;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;  
@@ -29,12 +29,12 @@
   .quiz{
     padding: 20px 0;
   }
-  
-  .quiz h2 {
-    font-size: 18px;
-    color: #ff006e;
-    font-weight: 600;
-  }
+
+    .quiz h2 {
+        font-size: 18px;
+        color: #00ff21;
+        font-weight: 600;
+    }
   
   .btn {
     background: #fff;
