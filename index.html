@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +8,20 @@
   <title>Quiz App</title>
 </head>
 <body>
-  <div class="app">
+  <div class="app" aria-label="Quiz Application">
     <h1>Simple Quiz</h1>
-    <div class="quiz">
-        <div class="question"></div>
-        <h2 id="question">Question goes here</h2>
+    <div class="quiz" aria-label="Quiz Section">
+      <div class="question" aria-label="Question Section"></div>
+      <h2 id="question" aria-label="Question">Question goes here</h2>
     </div>
-      <div id="answer-buttons">
-        <button class="btn">Answer 1</button>
-        <button class="btn">Answer 2</button>
-        <button class="btn">Answer 3</button>
-        <button class="btn">Answer 4</button>
-        <button class="btn">Answer 5</button>
-      </div>
-      <button id="next-btn">Next</button>
+    <div id="answer-buttons" aria-label="Answer Buttons Section">
+      <button class="btn" aria-label="Answer 1">Answer 1</button>
+      <button class="btn" aria-label="Answer 2">Answer 2</button>
+      <button class="btn" aria-label="Answer 3">Answer 3</button>
+      <button class="btn" aria-label="Answer 4">Answer 4</button>
+      <button class="btn" aria-label="Answer 5">Answer 5</button>
     </div>
+    <button id="next-btn" aria-label="Next Button">Next</button>
   </div>
   <script src="script.js"></script>
 </body>
