@@ -61,18 +61,11 @@ You can view the deployed website [here](placeholder for GitHub Pages deployment
 ![Screenshot 2024-02-08 180457](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/b363fde4-73c3-42ef-894a-65e8ac23daad)
 ![Screenshot 2024-02-08 180434](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/8b74d4ff-4c99-4b34-98ed-46cb0aa7203f)
 
-### _Mobile View - Home Page_
 
 
 
 
-### _Home Page_ 
 
-<p align="center">
-<img src="" width="600" height="700">
-</p>
-
-<hr>
 
 
 # Technologies Used
@@ -122,18 +115,9 @@ css validator
 
 
 # Final Product 
+![final](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/532b855c-1f46-48e4-a6d0-01c8375ab214)
 
-## Desktop View 
- 
-### _Home Page_
 
-<p align="center">
-<img src="#" width="600" height="100%">
-</p>
-
-<p align="center">
-<img src="#" width="600" height="100%">
-</p>
 
 ## Tablet View 
  ![tablet view](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/2b503edf-28be-4839-bfe8-da1a1db9a3ee)
