@@ -20,19 +20,30 @@
   
   .app h1{
     font-size: 25px;
+    font-style:italic;
     color: #00ff21;
     font-weight: 600;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;  
   }
-  
-  .quiz{
+
+.quiz {
     padding: 20px 0;
-  }
+    background: black;
+    }
+.quiz .question h2 {
+    background: black;
+    color: white;
+    padding: 10px; /* Optional: Add padding for better spacing */
+}
+
+
+
 
     .quiz h2 {
-        font-size: 18px;
-        color: #00ff21;
+        font-size: 25px;
+        
+        color: #ebf3e8;
         font-weight: 600;
     }
   
