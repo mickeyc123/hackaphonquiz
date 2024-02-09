@@ -146,8 +146,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 </p>
 
 ## Tablet View 
- 
+ ![tablet view](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/2b503edf-28be-4839-bfe8-da1a1db9a3ee)
+
 ### _Home Page_
+![First Build Mobile](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/4967db19-aa66-49ae-a99c-5a6c6e1bbe5f)
 
 <p align="center">
 <img src="#" width="600" height="100%">
@@ -158,7 +160,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 </p>
 
 ## Mobile View 
- 
+ ![First Build Mobile](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/4967db19-aa66-49ae-a99c-5a6c6e1bbe5f)
+
 ### _Home Page_
 
 
