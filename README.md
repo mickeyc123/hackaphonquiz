@@ -161,13 +161,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
  
 ### _Home Page_
 
-<p align="center">
-<img src="#" width="600" height="100%">
-</p>
 
-<p align="center">
-<img src="#" width="600" height="100%">
-</p>![Images inside quiz build](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/e5b832c4-582d-4422-8da5-263aabb6f686)
 
 
 ![Images inside quiz build 2](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/d159d432-a6c4-429d-a74c-64f921f1eacd)
