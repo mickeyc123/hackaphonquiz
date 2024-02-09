@@ -50,6 +50,16 @@ You can view the deployed website [here](placeholder for GitHub Pages deployment
 ![Images Added Build](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/34e724f4-7935-40bd-92f9-956cc25550ca)
 
 # Wireframes
+ 	![Screenshot 2024-02-08 180413](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/64f18162-bf8c-44ed-aef8-8f859b960a18)
+![Screenshot 2024-02-08 180339](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/c5d60fef-5359-444b-b092-dcaa2780490f)
+![Screenshot 2024-02-08 180307](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/63a39f9c-1cff-43fd-8b66-9db82381ed1a)
+![Screenshot 2024-02-08 180237](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/e353e2e6-7b91-4312-9633-9bf2beab0249)
+![Screenshot 2024-02-08 175927](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/b8056c30-de46-482f-9ed6-86038e173b93)
+![Screenshot 2024-02-08 175906](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/adbf2771-957a-492e-9eba-38b920a5bf47)
+![Screenshot 2024-02-08 180523](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/6c6af34b-fad9-437b-a351-6a022a540048)
+![Screenshot 2024-02-08 180523 (1)](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/26209d06-00f7-4de0-9544-d02c20a7550f)
+![Screenshot 2024-02-08 180457](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/b363fde4-73c3-42ef-894a-65e8ac23daad)
+![Screenshot 2024-02-08 180434](https://github.com/mickeyc123/hackaphonquiz/assets/86480582/8b74d4ff-4c99-4b34-98ed-46cb0aa7203f)
 
 ### _Mobile View - Home Page_
 
